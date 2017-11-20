@@ -92,7 +92,7 @@ class Morseable
   end
 
   def to_morse
-    self.generate_hash(@number)
+    generate_hash(@number)
   end
 end
 
